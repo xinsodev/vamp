@@ -2,6 +2,6 @@
 {
     public class MySQL : Service
     {
-        public override string Key { get => "mysql"; }
+        public override string Key { get; } = "mysql";
     }
 }

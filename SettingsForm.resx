@@ -112,9 +112,561 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="DomainExtTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 316</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DomainExtTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DomainExtTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="DomainExtTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;DomainExtTextBox.Name" xml:space="preserve">
+    <value>DomainExtTextBox</value>
+  </data>
+  <data name="&gt;&gt;DomainExtTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DomainExtTextBox.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;DomainExtTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DomainExtLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DomainExtLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DomainExtLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 325</value>
+  </data>
+  <data name="DomainExtLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 16</value>
+  </data>
+  <data name="DomainExtLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="DomainExtLabel.Text" xml:space="preserve">
+    <value>Domain extension:</value>
+  </data>
+  <data name="&gt;&gt;DomainExtLabel.Name" xml:space="preserve">
+    <value>DomainExtLabel</value>
+  </data>
+  <data name="&gt;&gt;DomainExtLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DomainExtLabel.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;DomainExtLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DataDirectoryButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="DataDirectoryButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DataDirectoryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 252</value>
+  </data>
+  <data name="DataDirectoryButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="DataDirectoryButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="DataDirectoryButton.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryButton.Name" xml:space="preserve">
+    <value>DataDirectoryButton</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryButton.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RootDirectoryButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="RootDirectoryButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RootDirectoryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 197</value>
+  </data>
+  <data name="RootDirectoryButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="RootDirectoryButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="RootDirectoryButton.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryButton.Name" xml:space="preserve">
+    <value>RootDirectoryButton</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryButton.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DataDirectoryTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 250</value>
+  </data>
+  <data name="DataDirectoryTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DataDirectoryTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>483, 25</value>
+  </data>
+  <data name="DataDirectoryTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryTextBox.Name" xml:space="preserve">
+    <value>DataDirectoryTextBox</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryTextBox.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DataDirectoryLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DataDirectoryLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DataDirectoryLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 230</value>
+  </data>
+  <data name="DataDirectoryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="DataDirectoryLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DataDirectoryLabel.Text" xml:space="preserve">
+    <value>Data directory:</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryLabel.Name" xml:space="preserve">
+    <value>DataDirectoryLabel</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryLabel.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;DataDirectoryLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RootDirectoryTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 195</value>
+  </data>
+  <data name="RootDirectoryTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RootDirectoryTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>483, 25</value>
+  </data>
+  <data name="RootDirectoryTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryTextBox.Name" xml:space="preserve">
+    <value>RootDirectoryTextBox</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryTextBox.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="RootDirectoryLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RootDirectoryLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RootDirectoryLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 175</value>
+  </data>
+  <data name="RootDirectoryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="RootDirectoryLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="RootDirectoryLabel.Text" xml:space="preserve">
+    <value>Root directory:</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryLabel.Name" xml:space="preserve">
+    <value>RootDirectoryLabel</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryLabel.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;RootDirectoryLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LanguageComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 140</value>
+  </data>
+  <data name="LanguageComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 24</value>
+  </data>
+  <data name="LanguageComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;LanguageComboBox.Name" xml:space="preserve">
+    <value>LanguageComboBox</value>
+  </data>
+  <data name="&gt;&gt;LanguageComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LanguageComboBox.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;LanguageComboBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="LanguageLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LanguageLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LanguageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 120</value>
+  </data>
+  <data name="LanguageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="LanguageLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LanguageLabel.Text" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="&gt;&gt;LanguageLabel.Name" xml:space="preserve">
+    <value>LanguageLabel</value>
+  </data>
+  <data name="&gt;&gt;LanguageLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LanguageLabel.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;LanguageLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="AutoStartCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AutoStartCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutoStartCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 85</value>
+  </data>
+  <data name="AutoStartCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AutoStartCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 20</value>
+  </data>
+  <data name="AutoStartCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AutoStartCheckBox.Text" xml:space="preserve">
+    <value>Start services automatically</value>
+  </data>
+  <data name="&gt;&gt;AutoStartCheckBox.Name" xml:space="preserve">
+    <value>AutoStartCheckBox</value>
+  </data>
+  <data name="&gt;&gt;AutoStartCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AutoStartCheckBox.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;AutoStartCheckBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="MinimizeOnRunCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MinimizeOnRunCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MinimizeOnRunCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 50</value>
+  </data>
+  <data name="MinimizeOnRunCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="MinimizeOnRunCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="MinimizeOnRunCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="MinimizeOnRunCheckBox.Text" xml:space="preserve">
+    <value>Run VAMP minimized</value>
+  </data>
+  <data name="&gt;&gt;MinimizeOnRunCheckBox.Name" xml:space="preserve">
+    <value>MinimizeOnRunCheckBox</value>
+  </data>
+  <data name="&gt;&gt;MinimizeOnRunCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MinimizeOnRunCheckBox.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;MinimizeOnRunCheckBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="AutoHostsCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AutoHostsCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutoHostsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 290</value>
+  </data>
+  <data name="AutoHostsCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AutoHostsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 20</value>
+  </data>
+  <data name="AutoHostsCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="AutoHostsCheckBox.Text" xml:space="preserve">
+    <value>Create virtual hosts automatically</value>
+  </data>
+  <data name="&gt;&gt;AutoHostsCheckBox.Name" xml:space="preserve">
+    <value>AutoHostsCheckBox</value>
+  </data>
+  <data name="&gt;&gt;AutoHostsCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AutoHostsCheckBox.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;AutoHostsCheckBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="RunOnStartupCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RunOnStartupCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RunOnStartupCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 15</value>
+  </data>
+  <data name="RunOnStartupCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="RunOnStartupCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 20</value>
+  </data>
+  <data name="RunOnStartupCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RunOnStartupCheckBox.Text" xml:space="preserve">
+    <value>Run VAMP on system startup</value>
+  </data>
+  <data name="&gt;&gt;RunOnStartupCheckBox.Name" xml:space="preserve">
+    <value>RunOnStartupCheckBox</value>
+  </data>
+  <data name="&gt;&gt;RunOnStartupCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RunOnStartupCheckBox.Parent" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;RunOnStartupCheckBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="GeneralPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="GeneralPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="GeneralPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 352</value>
+  </data>
+  <data name="GeneralPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GeneralPage.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;GeneralPage.Name" xml:space="preserve">
+    <value>GeneralPage</value>
+  </data>
+  <data name="&gt;&gt;GeneralPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GeneralPage.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;GeneralPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ServicesPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="ServicesPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ServicesPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 352</value>
+  </data>
+  <data name="ServicesPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ServicesPage.Text" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="&gt;&gt;ServicesPage.Name" xml:space="preserve">
+    <value>ServicesPage</value>
+  </data>
+  <data name="&gt;&gt;ServicesPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServicesPage.Parent" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;ServicesPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 15</value>
+  </data>
+  <data name="TabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="TabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 381</value>
+  </data>
+  <data name="TabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Name" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Parent" xml:space="preserve">
+    <value>SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;TabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SettingsPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SettingsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="SettingsPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="SettingsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 411</value>
+  </data>
+  <data name="SettingsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SettingsPanel.Name" xml:space="preserve">
+    <value>SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;SettingsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SettingsPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>584, 411</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>600, 450</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>600, 450</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingsForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>VAMP.UI.Forms.LocalizedForm, VAMP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
 </root>

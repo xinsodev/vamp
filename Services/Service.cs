@@ -14,12 +14,7 @@ namespace VAMP.Services
 
         public bool IsAvailable { get => Versions.Count > 0; }
 
-        public virtual string Key { get; protected set; } = string.Empty;
-
-        public Service()
-        {
-            GetVersions();
-        }
+        public virtual string Key { get; } = string.Empty;
 
         public virtual void Start()
         {
@@ -40,13 +35,15 @@ namespace VAMP.Services
 
             var directories = Directory.GetDirectories(@"bin\" + Key);
 
+            Versions.Clear();
+
             foreach (var directory in directories)
             {
                 Versions.Add(directory.Split('\\')[2]);
             }
         }
 
-        public virtual JObject GetDefaultConfigs()
+        public virtual JObject GetConfigs()
         {
             return new JObject(
                 new JProperty("version", Versions[0]),

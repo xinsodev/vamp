@@ -118,81 +118,64 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="StartButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 376</value>
+  <data name="DomainExtTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 316</value>
   </data>
-  <data name="StartButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="DomainExtLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 16</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="StartButton.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="DomainExtLabel.Text" xml:space="preserve">
+    <value>Đuôi tên miền:</value>
   </data>
-  <data name="StartButton.Text" xml:space="preserve">
-    <value>Start</value>
+  <data name="DataDirectoryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 16</value>
   </data>
-  <data name="&gt;&gt;StartButton.Name" xml:space="preserve">
-    <value>StartButton</value>
+  <data name="DataDirectoryLabel.Text" xml:space="preserve">
+    <value>Thư mục dữ liệu:</value>
   </data>
-  <data name="&gt;&gt;StartButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ProjectsDirectoryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 16</value>
   </data>
-  <data name="&gt;&gt;StartButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="ProjectsDirectoryLabel.Text" xml:space="preserve">
+    <value>Thư mục dự án:</value>
   </data>
-  <data name="&gt;&gt;StartButton.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="LanguageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
   </data>
-  <data name="SettingsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 376</value>
+  <data name="LanguageLabel.Text" xml:space="preserve">
+    <value>Ngôn ngữ</value>
   </data>
-  <data name="SettingsButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="AutoStartCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 20</value>
   </data>
-  <data name="SettingsButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="AutoStartCheckBox.Text" xml:space="preserve">
+    <value>Tự động chạy các dịch vụ</value>
   </data>
-  <data name="SettingsButton.Text" xml:space="preserve">
-    <value>Settings</value>
+  <data name="MinimizeOnRunCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
   </data>
-  <data name="&gt;&gt;SettingsButton.Name" xml:space="preserve">
-    <value>SettingsButton</value>
+  <data name="MinimizeOnRunCheckBox.Text" xml:space="preserve">
+    <value>Ẩn khi khởi động</value>
   </data>
-  <data name="&gt;&gt;SettingsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="AutoHostsChecBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 20</value>
   </data>
-  <data name="&gt;&gt;SettingsButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="AutoHostsChecBox.Text" xml:space="preserve">
+    <value>Tạo host ảo tự động</value>
   </data>
-  <data name="&gt;&gt;SettingsButton.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="RunOnStartupCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="RunOnStartupCheckBox.Text" xml:space="preserve">
+    <value>Khởi động cùng hệ thống</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>784, 411</value>
+  <data name="GeneralPage.Text" xml:space="preserve">
+    <value>Cài đặt chung</value>
   </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="ServicesPage.Text" xml:space="preserve">
+    <value>Cài đặt dịch vụ</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>VAMP</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>VAMP.UI.Forms.LocalizedForm, VAMP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Cài đặt</value>
   </data>
 </root>
