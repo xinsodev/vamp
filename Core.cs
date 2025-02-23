@@ -132,7 +132,7 @@ namespace VAMP
                 Configs["general"]["language"] = "en";
             }
 
-            Culture = new CultureInfo((string)Configs["general"]["language"]);
+            Culture = Languages.FirstOrDefault(x => x.Name == (string)Configs["general"]["language"]);
 
             // Directory settings
             if (!Configs.Value<JObject>("general").ContainsKey("directories") ||

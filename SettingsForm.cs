@@ -1,4 +1,4 @@
-﻿using System.Globalization;
+﻿using System.Linq;
 using System.Windows.Forms;
 using VAMP.UI.Forms;
 
@@ -92,7 +92,7 @@ namespace VAMP
         private void LanguageComboBox_SelectedIndexChanged(object sender, System.EventArgs e)
         {
             var language = (string)(LanguageComboBox.SelectedItem as ComboBoxItem).Value;
-            Core.Culture = new CultureInfo(language);
+            Core.Culture = Core.Languages.FirstOrDefault(x => x.Name == language);
             Core.Configs["general"]["language"] = language;
             SaveSettings();
         }
