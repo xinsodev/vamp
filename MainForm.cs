@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using VAMP.Services;
 using VAMP.UI.Forms;
 
 namespace VAMP
@@ -8,8 +6,6 @@ namespace VAMP
     public partial class MainForm : LocalizedForm
     {
         public static MainForm Instance { get; private set; }
-
-        public List<Service> Services { get; private set; }
 
         public MainForm()
         {

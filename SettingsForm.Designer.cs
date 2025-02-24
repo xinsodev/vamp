@@ -54,8 +54,8 @@
             // 
             // SettingsPanel
             // 
-            this.SettingsPanel.Controls.Add(this.TabControl);
             resources.ApplyResources(this.SettingsPanel, "SettingsPanel");
+            this.SettingsPanel.Controls.Add(this.TabControl);
             this.SettingsPanel.Name = "SettingsPanel";
             // 
             // TabControl
@@ -68,6 +68,7 @@
             // 
             // GeneralPage
             // 
+            resources.ApplyResources(this.GeneralPage, "GeneralPage");
             this.GeneralPage.Controls.Add(this.DomainExtTextBox);
             this.GeneralPage.Controls.Add(this.DomainExtLabel);
             this.GeneralPage.Controls.Add(this.DataDirectoryButton);
@@ -82,7 +83,6 @@
             this.GeneralPage.Controls.Add(this.MinimizeOnRunCheckBox);
             this.GeneralPage.Controls.Add(this.AutoHostsCheckBox);
             this.GeneralPage.Controls.Add(this.RunOnStartupCheckBox);
-            resources.ApplyResources(this.GeneralPage, "GeneralPage");
             this.GeneralPage.Name = "GeneralPage";
             this.GeneralPage.UseVisualStyleBackColor = true;
             // 
@@ -114,8 +114,8 @@
             // 
             // DataDirectoryTextBox
             // 
-            this.DataDirectoryTextBox.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.DataDirectoryTextBox, "DataDirectoryTextBox");
+            this.DataDirectoryTextBox.BackColor = System.Drawing.Color.White;
             this.DataDirectoryTextBox.Name = "DataDirectoryTextBox";
             this.DataDirectoryTextBox.ReadOnly = true;
             this.DataDirectoryTextBox.Click += new System.EventHandler(this.DataDirectoryTextBox_Click);
@@ -128,8 +128,8 @@
             // 
             // RootDirectoryTextBox
             // 
-            this.RootDirectoryTextBox.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.RootDirectoryTextBox, "RootDirectoryTextBox");
+            this.RootDirectoryTextBox.BackColor = System.Drawing.Color.White;
             this.RootDirectoryTextBox.Name = "RootDirectoryTextBox";
             this.RootDirectoryTextBox.ReadOnly = true;
             this.RootDirectoryTextBox.Click += new System.EventHandler(this.RootDirectoryTextBox_Click);
@@ -142,10 +142,10 @@
             // 
             // LanguageComboBox
             // 
+            resources.ApplyResources(this.LanguageComboBox, "LanguageComboBox");
             this.LanguageComboBox.DisplayMember = "Text";
             this.LanguageComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.LanguageComboBox.FormattingEnabled = true;
-            resources.ApplyResources(this.LanguageComboBox, "LanguageComboBox");
             this.LanguageComboBox.Name = "LanguageComboBox";
             this.LanguageComboBox.ValueMember = "Value";
             this.LanguageComboBox.SelectedIndexChanged += new System.EventHandler(this.LanguageComboBox_SelectedIndexChanged);
@@ -194,7 +194,6 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.SettingsPanel);
-            this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SettingsForm";
